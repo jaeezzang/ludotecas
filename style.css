@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Volkhov');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
 
 body{
   font-family: 'Roboto',sans-serif;
@@ -21,6 +23,25 @@ nav{
     color:white;
 }
 
+.btn-sm {
+    background-color:#FFD733;
+    border-color: #FFD733;
+}
+
+h5 {
+    color: #03AEB6;
+}
+
+h6 {
+    color: #FAAF22
+}
+
+.card{
+    border-style: hidden;
+    border-radius: 0
+}
+
+
 header {
   font-family: 'Nanum Gothic', sans-serif;
   position: relative;
@@ -33,6 +54,7 @@ header {
 
 header H1 {
     color: #FFD733;
+    font-family: 'Titan One', cursive;
 }
 
 header video {
