@@ -24,8 +24,14 @@ nav{
 }
 
 .btn-sm {
-    background-color:#FFD733;
-    border-color: #FFD733;
+    background-color:#FAAF22;
+    border-color: transparent;
+}
+
+
+.btn-sm:hover { 
+    background-color: #03AEB6;
+   border-color: transparent;
 }
 
 h5 {
