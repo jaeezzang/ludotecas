@@ -15,8 +15,9 @@ nav{
 }
 
 .navbar-dark {
-    background-color: transparent;
+    background-color: #03AEB6;
     }
+
 
 .amarillo {
     background-color:#FFD733;
@@ -95,7 +96,7 @@ header .overlay {
 }
 
 .bg-light {
-  background-color: #FFD733 !important;
+  background-color: #03AEB6 !important;
 }
 
 .bg-dark {
