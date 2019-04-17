@@ -115,17 +115,17 @@
             for (var x = 0; x < data.length; x++) {
               
                 if(data[x].comuna == "Santiago"){
-                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaNar}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
+                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaTu}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
                 }                 
                 else if(data[x].comuna == "Providencia"){
-                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaMor}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
+                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaNar}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
                 } 
                 
                 else if(data[x].comuna == "Ñuñoa"){
                 L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaRo}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
                 }                 
                 else if(data[x].comuna == "Peñalolén"){
-                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaTu}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
+                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]], {icon: marcaMor}).addTo(mymap).bindPopup(data[x].nombre).closePopup();
                 } 
                 
                 else {
